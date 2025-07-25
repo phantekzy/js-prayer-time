@@ -1,0 +1,149 @@
+/* ==== GOOGLE FONTS ==== */
+@import url('https://fonts.googleapis.com/css2?family=Lateef&family=Scheherazade+New:wght@700&display=swap');
+
+/* ==== GLOBAL STYLES ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Scheherazade New', serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #0b0c10, #1c1e24);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f2f2f2;
+  padding: 30px;
+}
+
+/* ==== MAIN CONTAINER ==== */
+.container {
+  background: rgba(12, 17, 23, 0.9);
+  border: 2px solid #1e3f3f;
+  border-radius: 24px;
+  box-shadow: 0 0 20px rgba(0, 64, 64, 0.6);
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 600px;
+  backdrop-filter: blur(8px);
+}
+
+/* ==== HEADINGS ==== */
+h1, h2 {
+  font-family: 'Lateef', cursive;
+  text-align: center;
+  font-size: 2.8rem;
+  color: #c0aa6d;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+/* ==== INPUT SECTION ==== */
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+input {
+  width: 80%;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid #3a4d4d;
+  background: #1e1f23;
+  color: #fefefe;
+  font-size: 1.1rem;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+input:focus {
+  border-color: #4ea89e;
+  outline: none;
+  background: #25272d;
+}
+
+/* ==== SEARCH BUTTON ==== */
+button.searchbtn {
+  width: 50%;
+  padding: 10px;
+  background: #356b6b;
+  color: #f5f5f5;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: all 0.3s;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(53, 107, 107, 0.4);
+}
+
+button:hover {
+  background: #4ea89e;
+  transform: scale(1.05);
+}
+
+/* ==== PRAYER INFO SECTION ==== */
+.salat-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.location {
+  font-size: 2.2rem;
+  color: #9be5dc;
+}
+
+.date {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-top: 8px;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  width: 40%;
+  background: #4ea89e;
+  margin: 10px auto;
+}
+
+/* ==== PRAYER LIST ==== */
+ul.prayer-list {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+ul.prayer-list li {
+  width: 85%;
+  background: linear-gradient(145deg, #1a1e24, #101217);
+  border: 1px solid #3a4d4d;
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #d9e6e3;
+  box-shadow: 0 0 12px rgba(0, 255, 194, 0.06);
+  transition: background 0.3s;
+}
+
+ul.prayer-list li:hover {
+  background: #1d222b;
+}
+

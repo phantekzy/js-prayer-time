@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Prayer Times</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- JS Script -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    
+    <!-- User Input Section -->
+    <div class="user-input">
+      <h1>PRAYER TIME</h1>
+      <div class="input-wrapper">
+        <input class="country" type="text" placeholder="Enter your Country">
+        <input class="city" type="text" placeholder="Enter your City">
+        <button class="searchbtn">SEARCH</button>
+      </div>
+    </div>
+
+    <!-- Prayer Results Section -->
+    <div class="salat-time">
+      <div class="user-info">
+        <h2>Timings</h2>
+        <hr>
+        <div class="location"></div>
+        <div class="date"></div>
+      </div>
+      <ul class="prayer-list"></ul>
+    </div>
+
+  </div>
+</body>
+</html>
+
